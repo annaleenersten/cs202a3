@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
+/* font-family: 'Gowun Batang', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Gowun+Batang&family=Shadows+Into+Light&display=swap');
+/* font-family: 'Concert One', sans-serif; */
+
+
+header{
+    background-color: #fa87f4;
+    text-align: center;
+    width: 45%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    transition: width 2s;
+    font-family: 'Concert One', sans-serif;
+    border: 0.2em solid black;
+}
+header:hover{
+    width: 100%;
+    transition:0;
+}
+header h1{
+    font-size: 2.5em;
+}
+body{
+    background-color: #6adbe6;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Gowun Batang', serif;
+    color: black;
+    font-size: 1.4em;
+}
+.column {
+    float: left;
+    width: 33.33%;
+}
+.row{
+    position: absolute;
+} 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column img{
+    width: 60%;
+}
+#gear, #gear4, #gear5{
+    width: 100%;
+}
+#gear2, #gear3, #gear6{
+    width: 62%;
+}
+#col1{
+    padding-top: 20%;
+    position: relative;
+}
+#col2{
+    padding-top: 8%;
+    position: relative;
+}
+#col3{
+    padding-top: 2%;
+    position: relative;
+}
+#text1{
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#text2{
+    position: absolute;
+    top: 86%;
+    left: 50%;
+    padding-left: 7%;
+    padding-right: 7%;
+    transform: translate(-50%, -50%);
+}
+#text3{
+    position: absolute;
+    top: 29.5%;
+    left: 50%;
+    padding-left: 7%;
+    padding-right: 7%;
+    transform: translate(-50%, -50%);
+}
+#text4{
+    position: absolute;
+    top: 74%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#text5{
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#text6{
+    position: absolute;
+    top: 81%;
+    left: 50%;
+    padding-left: 7%;
+    padding-right: 7%;
+    transform: translate(-50%, -50%);
+}
